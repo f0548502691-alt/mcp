@@ -5,7 +5,7 @@ import OpenAI from "openai";
 
 // התחברות ל-API (שני למפתח הפעיל שלך)
 const openai = new OpenAI({
-   apiKey: "sk-241c890defab484ab9ea0d005e22873a", // שנו למפתח שלכן!
+   apiKey: "api_key", // שנו למפתח שלכן!
   baseURL: "https://api.deepseek.com" 
 });
 
